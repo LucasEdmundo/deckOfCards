@@ -1,7 +1,3 @@
-Claro! Aqui está a versão aprimorada do README, destacando que o projeto faz parte de uma aula sobre o método `fetch`:
-
----
-
 # Deck of Cards
 
 Este projeto faz parte do curso **Dev-Quest** e foi desenvolvido durante uma aula focada no uso do método `fetch`. O objetivo do projeto é criar um baralho de cartas e implementar funcionalidades para manipular o baralho, incluindo a obtenção de dados de uma API externa.
@@ -47,6 +43,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma _issue_ ou e
 
 Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
----
-
-Sinta-se à vontade para personalizar conforme necessário!
