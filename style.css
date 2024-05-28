@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(./image/casino.avif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,9 +8,9 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   
 }
-button{
+
+button {
     background-color: rgb(175, 175, 175);
     color: rgb(0, 0, 0);
     padding: 10px 20px;
@@ -18,9 +18,55 @@ button{
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    transition: ease-in-out .3s;
+    transition: ease-in-out 0.3s;
 }
-button:hover{
+
+button:hover {
     background-color: rgb(100, 100, 100);
     color: rgb(255, 255, 255);
+}
+
+img.baralho {
+    width: 100%; /* Faz a imagem ocupar a largura total do elemento pai */
+    max-width: 300px; /* Define um tamanho máximo para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Media queries para telas pequenas */
+@media (max-width: 425px) {
+    body {
+        background-size: cover; /* Mantém a imagem de fundo cobrindo toda a tela */
+        padding: 20px; /* Adiciona padding para evitar que o conteúdo encoste nas bordas */
+    }
+
+    button {
+        font-size: 14px; /* Reduz o tamanho da fonte do botão */
+        padding: 8px 16px; /* Ajusta o padding do botão */
+    }
+
+    img.baralho {
+        max-width: 250px; /* Ajusta o tamanho máximo da imagem do baralho */
+    }
+}
+
+@media (max-width: 375px) {
+    button {
+        font-size: 12px; /* Reduz ainda mais o tamanho da fonte do botão */
+        padding: 6px 12px; /* Ajusta o padding do botão */
+    }
+
+    img.baralho {
+        max-width: 200px; /* Ajusta o tamanho máximo da imagem do baralho */
+    }
+}
+
+@media (max-width: 320px) {
+    button {
+        font-size: 10px; /* Reduz o tamanho da fonte do botão para telas menores */
+        padding: 4px 8px; /* Ajusta o padding do botão */
+    }
+
+    img.baralho {
+        max-width: 150px; /* Ajusta o tamanho máximo da imagem do baralho */
+    }
 }
